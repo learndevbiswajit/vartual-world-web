@@ -12,10 +12,10 @@ export const AVATARS = {
   },
 
   avatar2: {
-    label: "Soldier Avatar",
-    url: "/models/soldier.glb",
+   label: "Girl Avatar",
+    url: "/models/avatargirl.glb",
     scale: 1,
-    rotation: [0, Math.PI, 0],
+    rotation: [0, Math.PI/2, 0],
     animations: {
       idle: ["idle"],
       walk: ["walk"],
@@ -24,8 +24,8 @@ export const AVATARS = {
   },
 
   avatar3: {
-    label: "NPC Avatar",
-    url: "/models/avatarold.glb",
+    label: "Girl Avatar",
+    url: "/models/avatargirl.glb",
     scale: 1,
     rotation: [0, 0, 0],
     animations: {
